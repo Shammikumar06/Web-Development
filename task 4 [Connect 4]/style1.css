@@ -1,0 +1,31 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+#board{
+    height: 540px;
+    width: 630px;
+    background-color:blueviolet;
+    border: 10px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+
+    background-color: #fff;
+    border-radius: 50%;
+    border: 5px  solid black;
+}
+
+.red-piece{
+    background-color: red;
+}
+
+.yellow-piece{
+    background-color: yellow;
+}
